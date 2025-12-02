@@ -13,8 +13,10 @@ Datasets labeled with the prefix "x" contain only clues (the numbers above and t
 Datasets labeled with the prefix "y" contain the value of each individual square of the grid (0 or 1), left to right, top to bottom.
 
 Baseline model: random (each cell randomly assigned 0 or 1 without regard for clues)
-Oracle model: heuristics
+Oracle model: supervised learning using relu and sigmoid
 
 Total puzzles: 376,368
 Training puzzles: 361,094 (~96%)
 Testing puzzles: 15,274 (~4%)
+
+Run the training programs through a shell with ```python baseline_model_training.py``` or ```python oracle_model_training.py```
