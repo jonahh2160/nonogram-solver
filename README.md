@@ -32,3 +32,16 @@ Steps to run code:
 2. Unzip ```x_train_dataset.7z``` and ```y_train_dataset.7z``` under ```puzzles/15x15```
 3. Set BOARD_SIZE in scripts/config.py to either 10 or 15 depending on the size of puzzle you wish to use
 4. cd down to scripts and type ```python ``` and then the name of the model you wish to run (either ```baseline_model_training.py``` or ```oracle_model_trainig.py```)
+
+Files:
+puzzles: 10x10, 15x15
+x_training_dataset: the clues for the training dataset
+y_training_dataset: the answer key for the training dataset
+x_test_dataset: the clues for the test dataset
+y_test_dataset: the answer key for the test dataset
+scripts:
+config.py: the settings for the model
+baseline_model.py: the baseline model
+baseline_model_training.py: the training process for the baseline model
+oracle_model.py: the oracle model
+oracle_model_training.py: the training process for the oracle_model
