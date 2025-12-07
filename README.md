@@ -25,3 +25,10 @@ Testing puzzles: 15,274 (~4%)
 ~81% accuracy for 15x15
 
 Run the training programs through a shell with ```python baseline_model_training.py``` or ```python oracle_model_training.py```
+
+Steps to run code:
+
+1. Ensure NumPy and TensorFlow are installed using ```pip install```
+2. Unzip ```x_train_dataset.7z``` and ```y_train_dataset.7z``` under ```puzzles/15x15```
+3. Set BOARD_SIZE in scripts/config.py to either 10 or 15 depending on the size of puzzle you wish to use
+4. cd down to scripts and type ```python ``` and then the name of the model you wish to run (either ```baseline_model_training.py``` or ```oracle_model_trainig.py```)
