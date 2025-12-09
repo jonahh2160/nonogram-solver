@@ -9,7 +9,7 @@ CLUE_LENGTH = math.ceil(BOARD_SIZE / 2) # Maximum number of clues per row/column
 # |--> 5 in the case of a 10x10 board
 CLUE_COUNT = BOARD_SIZE * CLUE_LENGTH * 2 # Total number of clues
 BATCH_SIZE = 64
-EPOCHS = 20
+EPOCHS = 24
 
 # File pathing
 PUZZLE_FOLDER = Path("..") / "puzzles"  / FOLDER_NAME
